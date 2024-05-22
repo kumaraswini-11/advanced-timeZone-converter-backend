@@ -1,0 +1,36 @@
+{
+  "name": "backend_assignment_playpower",
+  "version": "1.0.0",
+  "description": "This is a backend assignment given by Playpower Lab.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "authentication",
+    "jwt",
+    "redis",
+    "postgres",
+    "prisma",
+    "docker",
+    "node.js",
+    "rest api"
+  ],
+  "author": "Aswini Sahu",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "prettier": "3.2.5",
+    "prisma": "^5.14.0"
+  }
+}
