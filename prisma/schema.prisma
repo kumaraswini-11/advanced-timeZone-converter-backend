@@ -58,3 +58,4 @@ model Submission {
 
 // npx prisma migrate dev --name created_person_schema
 // npx prisma generate
+// npx prisma studio

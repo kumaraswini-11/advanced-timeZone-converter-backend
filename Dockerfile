@@ -13,6 +13,9 @@ RUN npm ci
 # Copy the rest of the application source code to the working directory
 COPY . .
 
+# Copy the .env file to the working directory
+COPY .env .env
+
 # Generate Prisma Client
 RUN npx prisma generate
 
