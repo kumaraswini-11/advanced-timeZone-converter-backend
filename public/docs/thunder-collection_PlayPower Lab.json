@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "PlayPower Lab",
+    "collectionId": "216f6c2b-2af6-4fec-9a40-294cca9a4e87",
+    "dateExported": "2024-05-26T15:02:54.484Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8a34fc1b-4ed3-4f17-9040-613f184bf4f4",
+            "colId": "216f6c2b-2af6-4fec-9a40-294cca9a4e87",
+            "containerId": "",
+            "name": "http://localhost:8080/api/auth/login",
+            "url": "http://localhost:8080/api/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-26T14:47:40.165Z",
+            "modified": "2024-05-26T14:47:40.165Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userName\": \"Ram123\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a5b53fe3-7cbc-4ef3-994d-5eedf022d237",
+            "colId": "216f6c2b-2af6-4fec-9a40-294cca9a4e87",
+            "containerId": "",
+            "name": "http://localhost:8080/api/assignments/",
+            "url": "http://localhost:8080/api/assignments/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-26T14:52:32.511Z",
+            "modified": "2024-05-26T14:52:32.511Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwicm9sZSI6bnVsbCwiZW1haWwiOm51bGwsImlhdCI6MTcxNjczNTAwMCwiZXhwIjoxNzE2NzM4NjAwfQ.rdGfZmxh-Zq_8Z6_qzLNH-2kL0eMKpzJbsmfZwomO58"
+            }
+        },
+        {
+            "_id": "233414bb-3023-4400-a65e-9aa315d6cee8",
+            "colId": "216f6c2b-2af6-4fec-9a40-294cca9a4e87",
+            "containerId": "",
+            "name": "http://localhost:8080/api/assignments/1",
+            "url": "http://localhost:8080/api/assignments/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-26T14:58:19.926Z",
+            "modified": "2024-05-26T14:58:19.926Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Assignment 5\",\n  \"description\": \"Request made from Thunder Client\",\n  \"dueDate\": \"2024-05-26T00:50:30.000Z\",\n  \"totalScore\": 100\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwicm9sZSI6bnVsbCwiZW1haWwiOm51bGwsImlhdCI6MTcxNjczNTAwMCwiZXhwIjoxNzE2NzM4NjAwfQ.rdGfZmxh-Zq_8Z6_qzLNH-2kL0eMKpzJbsmfZwomO58"
+            }
+        },
+        {
+            "_id": "a0f2cb66-72d6-436e-8511-025be07ea3cb",
+            "colId": "216f6c2b-2af6-4fec-9a40-294cca9a4e87",
+            "containerId": "",
+            "name": "http://localhost:8080/api/assignments/4",
+            "url": "http://localhost:8080/api/assignments/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-26T15:02:31.116Z",
+            "modified": "2024-05-26T15:02:31.116Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Assignment 5 to Assignment assigned by thunder client updated.\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwicm9sZSI6bnVsbCwiZW1haWwiOm51bGwsImlhdCI6MTcxNjczNTAwMCwiZXhwIjoxNzE2NzM4NjAwfQ.rdGfZmxh-Zq_8Z6_qzLNH-2kL0eMKpzJbsmfZwomO58"
+            }
+        }
+    ],
+    "ref": "_sEuq_JIKGwqchqiWH51YvC1clrPVimidIIi7c4syB5Fxmvh4E2uktzUbMH-I1lQslnOX9eWCq-c_D7p6q2H6w"
+}

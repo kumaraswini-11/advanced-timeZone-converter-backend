@@ -60,7 +60,7 @@ export const updateAssignment = async (req, res) => {
   const { id: assignmentId } = req.params;
   const { title, description, dueDate, totalScore } = req.body;
 
-  if ([title, description, dueDate, totalScore].some((field) => !field)) {
+  if ([title, description, dueDate, totalScore].every((field) => !field)) {
     return res
       .status(400)
       .json({ message: "Invalid input ! Nothing to update." });
